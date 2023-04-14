@@ -77,6 +77,19 @@
 
     background-color: white;
 }
+.about {
+    text-decoration: none;
+    font-family: 'Garet', sans-serif;
+    font-weight: bolder;
+    font-size: 33px;
+    padding: 8px 25px;
+    border-radius: 15px;
+    align-content: center;
+    margin: 25px;
+    margin-left: 5%;
+    margin-right: 81%;
+    background-color: white;
+}
 
 .category_title {
     text-decoration: none;
@@ -130,7 +143,7 @@
     align-self: center;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 4%;
 
 }
@@ -210,7 +223,7 @@ input[type="submit"]:hover {
     align-self: center;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 4.5%;
+    margin-top: 1%;
     margin-left: 4%;
 }
 
@@ -471,3 +484,28 @@ input[type="submit"]:hover {
     margin: 0 auto;
 }
 
+.cont{
+    font-family: 'Garet', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 8px 25px;
+    border-radius: 15px;
+    align-content: center;
+    margin: 25px;
+    margin-left: 5%;
+    background: linear-gradient(160deg, #bb0bbbe1, #1153e2a9);
+    };
+
+h1{
+    font-family: 'playfair display', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.para{
+    font-family: 'open-sans', sans-serif;
+    color:black;
+    font-weight:500;
+    font-size: 21px;
+    margin-left: 5%;
+    margin-bottom: 30%;
+}

@@ -404,14 +404,14 @@ input[type="submit"]:hover {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
+    font-family: 'Garet', sans-serif;    
     color: #818181;
     display: block;
     transition: 0.3s;
