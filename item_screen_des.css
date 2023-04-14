@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #0097B2, #7ED957, #0097B2, #7ED957);
+    background-size: 300% 300%;
+    position: fixed;
+    animation: color 20s ease-in-out infinite;
+    overflow-y: auto;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.recyclr {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10%;
+    background: linear-gradient(160deg, #bb0bbbe1, #1153e2a9);
+}
+
+.txt_title {
+    text-decoration: none;
+    font-family: 'Garet', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 8px 20px;
+    border-radius: 15px;
+    align-content: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    background-color: white;
+    position: absolute;
+}
+
+
+.add-cart {
+    display: inline-flex;
+    background-color: #ffffff;
+    margin-left: 35px;
+    margin-top: 89px;
+    border: none;
+    color: black;
+    padding: 13px;
+    padding-right: -10px;
+    text-align: left;
+    align-items: left;
+    text-decoration: none;
+    height: 50px;
+
+    display: inline-flex;
+    font-family: 'garet', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 16px;
+
+    filter: brightness(5%);
+    filter: contrast(5%);
+    filter: drop-shadow(10px 10px 10px rgb(45, 46, 45));
+    transition: .5s ease-in-out;
+}
+
+.add-cart:hover {
+    transform: translateY(-10px) translateX(5px)
+}
+
+.container {
+
+    display: flex;
+    flex: 0.2;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 30px;
+    padding: 3%;
+    padding-left: 2%;
+    padding-right: 2.5%;
+    padding-bottom: 1%;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    justify-self: center;
+
+}
+
+.img {
+    height: 30%;
+    width: 30%;
+}
+.buy_text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    float: right;
+    margin-right: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.account {
+    position: absolute;
+    top: 30px;
+    right: -240px;
+}
+
+.sidenav-container {
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1a1919e3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.navbar a {
+    display: inline-flex;
+    display: flex;
+    position: relative;
+    align-self: center;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 4%;
+    transition: .5s ease-in-out;
+}
+
+.navbar a:hover {
+    transform: translateY(-5px)
+}
+
+.account {
+    position: fixed;
+    top: 30px;
+    right: -240px;
+}
+
+.top-thing {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 2%;
+    padding-right: 2.5%;
+    padding-bottom: 1%;
+    bottom: 2%;
+    overflow: hidden;
+    position: fixed;
+    margin-left: 45%;
+    justify-self: center;
+
+
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Recyclr.</title>
+
+    <link rel="stylesheet" href="design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div class="bg">
+        <div class="top-thing">
+            <div class="sidenav-container">
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="wishlist.html">wishlist</a>
+                    <a href="acc.html">profile</a>
+                    <a href="about.html">about</a>
+                    <a href="sign.html">sign in</a>
+                </div>
+                <span style="font-size:55px;cursor:pointer;margin-top: 50px;" onclick="openNav()">&#9776;</span>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+
+            </div>
+            <div class="recyclr">Recyclr.</div>
+            <div class="account"><a href="acc.html"><img src="account.png" style="width: 18%; height: 18%;"></a></div>
+
+        </div>
+
+        <div class="header_shop">
+
+
+
+            <div class="shop_title"><text>shop</text></div>
+            <div class="search-container">
+                <form action="" class="disp-flex">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+
+
+        <div class="sell_options_buttons">
+            <button class="buy_buttons" style="vertical-align: top; width: 30%;"><img src="buy_1.jpeg"
+                    style=" width: 35%; border-radius: 12px;">
+                <div class="buy_text">
+                    <span class="txt" style="vertical-align: top;">pots
+                        <span class="txt">$80</span></span>
+                </div>
+            </button>
+
+            <a href="item_screen.html" class="buy_buttons" style="vertical-align: top; width: 30%;"><img src="buy_2.jpeg"
+                    style=" width: 35%; border-radius: 12px;">
+                <div class="buy_text">
+                    <span class="txt" style="vertical-align: top;">fairy castle
+                        <span class="txt">$80</span></span>
+                </div>
+            </a>
+
+            <button class="buy_buttons" style="vertical-align: top; width: 30%;"><img src="buy_3.jpeg"
+                    style=" width: 35%; border-radius: 12px;">
+                <div class="buy_text">
+                    <span class="txt" style="vertical-align: top;">candle lamp
+                        <span class="txt">$80</span></span>
+                </div>
+            </button>
+
+        </div>
+
+        <div class="sell_options_buttons_row">
+            <button class="buy_buttons" style="vertical-align: top; width: 30%;"><img src="buy_2.jpeg"
+                    style=" width: 35%; border-radius: 12px;">
+                <div class="buy_text">
+                    <span class="txt" style="vertical-align: top;">fairy castle
+                        <span class="txt">$80</span></span>
+                </div>
+            </button>
+
+            <button class="buy_buttons" style="vertical-align: top; width: 30%;"><img src="buy_3.jpeg"
+                    style=" width: 35%; border-radius: 12px;">
+                <div class="buy_text">
+                    <span class="txt" style="vertical-align: top;">candle lamp
+                        <span class="txt">$80</span></span>
+                </div>
+            </button>
+
+            <button class="buy_buttons" style="vertical-align: top; width: 30%;"><img src="buy_1.jpeg"
+                    style=" width: 35%; border-radius: 12px;">
+                <div class="buy_text">
+                    <span class="txt" style="vertical-align: top;">pots
+                        <span class="txt">$80</span></span>
+                </div>
+            </button>
+
+        </div>
+
+        <div class="sell_options_buttons_row">
+            <a class="buy_buttons" style="vertical-align: top; width: 30%;"><img src="buy_2.jpeg"
+                    style=" width: 35%; border-radius: 12px;">
+                <div class="buy_text">
+                    <span class="txt" style="vertical-align: top;">fairy castle
+                        <span class="txt">$80</span></span>
+                </div>
+            </a>
+
+            <button class="buy_buttons" style="vertical-align: top; width: 30%;"><img src="buy_1.jpeg"
+                    style=" width: 35%; border-radius: 12px;">
+                <div class="buy_text">
+                    <span class="txt" style="vertical-align: top;">pots
+                        <span class="txt">$80</span></span>
+                </div>
+            </button>
+
+            <button class="buy_buttons" style="vertical-align: top; width: 30%;"><img src="buy_3.jpeg"
+                    style=" width: 35%; border-radius: 12px;">
+                <div class="buy_text">
+                    <span class="txt" style="vertical-align: top;">candle lamp
+                        <span class="txt">$80</span></span>
+                </div>
+            </button>
+
+        </div>
+
+        <a href="checkout.html"><span class="shop_title" style="float:right;margin-top: 50px;">Checkout</span></a>
+         
+
+
+
+        <div class="navbar">
+            <a href="index.html"><img src="home.png" style="width: 50px; height: 50px; "></a>
+            <a href="index.html"><img src="recycle.png" style="width: 50px; height: 50px;  "></a>
+            <a href="buy.html"><img src="shop.png" style="width: 45px; height: 45px; "></a>
+        </div>
+
+
+        
+    </div>
+
+
+</body>
+
+</html>

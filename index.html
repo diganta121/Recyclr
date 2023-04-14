@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recyclr.</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg">
+        <div class="top-thing">
+            <div class="sidenav-container">
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Wishlist</a>
+                    <a href="acc.html">Profile</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+                <span style="font-size:55px;cursor:pointer;margin-top: 50px;" onclick="openNav()">&#9776;</span>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+
+            </div>
+            <div class="recyclr">Recyclr.</div>
+            <div class="account"><a href="acc.html"><img src="account.png" style="width: 18%; height: 18%;"></a></div>
+
+        </div>
+        
+        <div class="category_title">Category</div>
+
+        <div class="sell_options_buttons">
+            <button class="button sell_buttons" style="vertical-align: middle; width: 20%;"><img src="recycle_green.png"
+                    style="vertical-align: middle; width: 16%; padding-top: 10px;"><span class="txt"
+                    style="vertical-align: middle; padding-top: 20px;">Recyclable</span></button>
+
+            <button class="button sell_buttons" style="vertical-align: middle; width: 22%;"><img
+                    src="not-recyclable.png" style="vertical-align: middle; width: 16%;padding-top: 10px;"><span class="txt"
+                    style="vertical-align: middle; padding-top: 20px;">Non-recyclable</span></button>
+
+            <button class="button sell_buttons" style="vertical-align: middle; width: 22%;padding-top: 15px;"><img src="bio.png"
+                    style="vertical-align: middle; width: 15%;"><span class="txt"
+                    style="vertical-align: middle; padding-top: 10px;">Biodegradeable</span></button>
+
+            <button class="button sell_buttons" style="vertical-align: middle; width: 18%;margin-right: 1%;padding-top: 20px;"><img
+                    src="phone.png" style="vertical-align: middle; width: 10%;"><span class="txt"
+                    style="vertical-align: middle; padding-top: 10px;">E-waste</span></button>
+
+        </div>
+
+        <div class="navbar">
+            <a href="acc.html"><img src="home.png" style="width: 45px; height: 45px; "></a>
+            <a href="index.html"><img src="recycle.png" style="width: 50px; height: 50px; "></a>
+            <a href="buy.html"><img src="shop.png" style="width: 50px; height: 50px;  "></a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

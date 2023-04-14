@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recyclr.</title>
+    <link rel="stylesheet" href="acc_des.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/garet" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+        <div class="top-thing">
+            <div class="sidenav-container">
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="wishlist.html">Wishlist</a>
+                    <a href="acc.html">Profile</a>
+                    <a href="about.html">About</a>
+                    <a href="sign.html">Sign in</a>
+                </div>
+                <span style="font-size:55px;cursor:pointer;margin-top: 50px;" onclick="openNav()">&#9776;</span>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+
+            </div>
+            <div class="recyclr">Recyclr.</div>
+            <div class="account"><a href="acc.html"><img src="account.png" style="width: 18%; height: 18%;"></a></div>
+
+        </div>
+
+        <div class="name"><text style="color: rgb(255, 255, 255);">Name:</text>Abhijith T S</div>
+        <div class="name"><text style="color: rgb(255, 255, 255);">Location:</text> lorem ipsum </div>
+        <div class="name"><text style="color: rgb(255, 255, 255);">Ecocoins:</text> 469 coins </div>
+
+        
+        <div class="navbar">
+            <a href="acc.html"><img src="home.png" style="width: 45px; height: 45px; "></a>
+            <a href="index.html"><img src="recycle.png" style="width: 50px; height: 50px; "></a>
+            <a href="buy.html"><img src="shop.png" style="width: 50px; height: 50px;  "></a>
+
+        </div>
+
+
+        <div class="account"><a href="#"><img src="account.png" style="width: 18%; height: 18%;"></a></div>
+    
+        
+
+    </div>
+</body>
+</html>
