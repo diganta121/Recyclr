@@ -351,22 +351,21 @@ input[type="submit"]:hover {
 
 .rem_wl_buttons {
     display: flex;
-    background-color: #ffffff;
+    background-color: purple;
     border: none;
-    color: black;
-    padding: 1px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
     text-align: left;
+    padding-right: 10px;
     align-items: left;
     text-decoration: none;
     font-family: 'garet', sans-serif;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-left: 60%;
+    margin-top: 1%;
 
-    filter: brightness(5%);
-    filter: contrast(5%);
-    filter: drop-shadow(10px 10px 10px rgb(45, 46, 45));
-    transition: .5s ease-in-out;
 }
 
 .img li {

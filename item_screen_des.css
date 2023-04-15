@@ -60,11 +60,11 @@
 
 .add-cart {
     display: inline-flex;
-    background-color: #ffffff;
+    background-color: purple;
     margin-left: 35px;
     margin-top: 89px;
     border: none;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 13px;
     padding-right: -10px;
     text-align: left;
@@ -159,14 +159,15 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
+    font-weight: bold;
+    font-family: 'garet', sans-serif;
     color: #818181;
     display: block;
     transition: 0.3s;

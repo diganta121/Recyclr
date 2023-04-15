@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recyclr.</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="recyclable.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <style>
+		.bg {
+			height: 100vh;
+			width: 100%;
+			background: linear-gradient(45deg, #0097B2, #7ED957, #0097B2, #7ED957);
+			background-size: 300% 300%;
+			position: fixed;
+			animation: color 20s ease-in-out infinite;
+			overflow-y: auto;
+		}
+
+		@keyframes color {
+			0% {
+				background-position: 0 50%;
+			}
+
+			50% {
+				background-position: 100% 50%;
+			}
+
+			100% {
+				background-position: 0 50%;
+			}
+		}
+
+
+		h1 {
+			text-align: center;
+			margin-bottom: 20px;
+			color: #333;
+		}
+
+		form {
+			width: 50%;
+			margin-top: 7%;
+            margin-left: 5%;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			    background: linear-gradient(160deg, #bb0bbbe1, #1153e2a9);
+
+		}
+
+		label {
+			display: block;
+            font-family: 'open-sans', sans-serif;
+			margin-bottom: 10px;
+			font-weight: bold;
+			color: #ffffff;
+		}
+
+		input[type="text"],
+		select {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+
+		input[type="submit"] {
+			background-color: purple;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: rgb(85, 5, 85);
+		}
+        .truck{
+            position: absolute;
+            top: 23%;
+            font-size: 1500%;
+            margin-left: 65%;
+
+        }
+        .trucktext{
+            position: absolute;
+            font-family: 'Pacifico', cursive;
+            font-weight: lighter;
+            top: 70%;
+            margin-left: 60%;
+            font-size: 210%;
+            font-weight: bolder;
+
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg">
+        <div class="top-thing">
+            <div class="sidenav-container">
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="wishlist.html">Wishlist</a>
+                    <a href="acc.html">Profile</a>
+                    <a href="about.html">About</a>
+                    <a href="sign.html">Sign in</a>
+                </div>
+                <span style="font-size:55px;cursor:pointer;margin-top: 50px;" onclick="openNav()">&#9776;</span>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+
+            </div>
+            <div class="recyclr">Recyclr.</div>
+            <div class="account"><a href="acc.html"><img src="account.png" style="width: 18%; height: 18%;"></a></div>
+        </div>
+        <div class="category_title">Biodegradable</div>
+        <form>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name...">
+
+			<label for="email">Phone</label>
+			<input type="text" id="email" name="email" placeholder="Phone no.">
+
+			<label for="address">Address</label>
+			<input type="text" id="address" name="address" placeholder="Enter your address...">
+
+			<label for="country">Country</label>
+			<select id="country" name="country">
+
+				<option value="">-- Select Country --</option>
+				<option value="USA">United States of America</option>
+				<option value="Canada">Canada</option>
+				<option value="India">India</option>
+				<option value="Mexico">Mexico</option>
+				<option value="Brazil">Brazil</option>
+				<option value="Australia">Australia</option>
+				<option value="China">China</option>
+				<option value="France">France</option>
+				<option value="Germany">Germany</option>
+				<option value="Japan">Japan</option>
+				<option value="South Korea">South Korea</option>
+				<option value="Russia">Russia</option>
+				<option value="Spain">Spain</option>
+				<option value="United Kingdom">United Kingdom</option>
+			</select>
+
+			<input id="subm" type="submit" value="Done">
+		</form>
+        <div class="truck">🚛</div>
+        <div class="trucktext">Pickup truck en route !</div>
+        <div class="navbar">
+            <a href="acc.html"><img src="home.png" style="width: 45px; height: 45px; "></a>
+            <a href="index.html"><img src="recycle.png" style="width: 50px; height: 50px; "></a>
+            <a href="buy.html"><img src="shop.png" style="width: 50px; height: 50px;  "></a>
+
+        </div>
+
+    </div>
+</body>
+</html>

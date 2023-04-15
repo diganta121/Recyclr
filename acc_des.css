@@ -22,17 +22,34 @@
         background-position: 0 50%;
     }
 }
-.recyclr{
-    text-decoration:none;
+.recyclr {
+    text-decoration: none;
     font-family: 'Playfair Display', serif;
+    width: 100%;
     color: #ffffff;
     font-weight: bolder;
     font-size: 50px;
     padding: 8px 20px;
     border-radius: 20px;
-    margin-top:20px ;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 10%;
+    background: linear-gradient(160deg, #bb0bbbe1, #1153e2a9);
+}
+
+.bg2{
+    text-decoration:none;
+    font-family: 'Garet', sans-serif;
+    color: #ffffff;
+    font-weight:300;
+    font-size: 1.5%;
+    padding: 8px 20px;
+    padding-left: 22%;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    margin-top:50px ;
+    margin-left: 7%;
+    margin-right: 15%;
     background: linear-gradient(160deg,#bb0bbbe1,#1153e2a9);
 }
 .sec{
